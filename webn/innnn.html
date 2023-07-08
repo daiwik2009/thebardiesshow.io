@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>The Bardies Show</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<font color="yellow"><center><h1>Welcome!!</h1></center></font>
+
+<center><img src="file:///C:/Users/Partha%20Goswami/Desktop/webn/logo%20transparent.png"></center>
+
+<style>
+
+
+
+body {
+    background-image:
+url('file:///C:/Users/Partha%20Goswami/Desktop/webn/baaaak.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+</style>
+ 
+<center><iframe src="https://drive.google.com/file/d/1rB5syiEaOKUibZmBfNes8TH9L5H-s1-P/preview" width="640" height="480" allow="autoplay"></iframe></center>
+<font color="yellow"><h3><u>Who are Bardies?</u></h3></font>
+<font color="green">So you all must having one question, <b>Who are these bardies?</b>. So for you, the term <u>Bardies</u> has derived from two words, the first word <b>BARD</b> which means the one who says stories or story tellers simply. The other word <b>BUDDIES</b> means friends.So this whole term ,<b>Bardies</b> means Your friend story teller!! And there fore We have named our channel as <b><u>The Bardies Show</u></b>!</font>
+<font color="Yellow"><h3><b><u>What purpose do we serve?</u></b></h3></font>
+<font color="green">As you all know, that stories are meant to be explored and told.</font>
+<font color="green">If you are here, we insist you to take some time out and not just hear or watch the content rather just feel it and do let us know what did you think about it.</font>
+<font color="green">We are new here and this is just a starting but we are here to unravel each and every aspect there is. We are embarking this journey and would feel privilege and love to take you along with us!</font>
+<font color="white"><p>If you want to contact us , click <A href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=thebardiesshow@gmail.com"> here </A> to do so!</p></font>
+<font color="white"><p>And click <A href="https://www.instagram.com/thebardies.show/"> here </A> to get redirected to Instagram page!</p></font>
+<font color="white"><p>And last but not the least, the main youtube channel link , click <A href="https://www.youtube.com/@thebardiesshow"> here </A> to get redirected to Youtube!</p></font>
+
+
+
+
+ </div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
